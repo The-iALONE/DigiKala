@@ -1,5 +1,6 @@
 ﻿document.getElementById('close-btn').addEventListener('click', function () {
     document.getElementById('AppMobile').style.display = 'none';
+    document.querySelector('.main-body').style.paddingTop = "100px"
 });
 
 
